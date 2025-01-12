@@ -1,6 +1,10 @@
 {
   "name": "comfy.js",
+<<<<<<< HEAD
   "version": "1.1.21",
+=======
+  "version": "1.1.17",
+>>>>>>> 8550881 (added reply function)
   "description": "Twitch-Integrated Bot Module for Coding Cafe",
   "main": "app.js",
   "scripts": {
