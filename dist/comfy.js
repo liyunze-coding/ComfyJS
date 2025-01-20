@@ -1,9 +1,13 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Comfy.JS v1.1.21
 =======
 // Comfy.JS v1.1.17
 >>>>>>> 8550881 (added reply function)
+=======
+// Comfy.JS v1.1.17
+>>>>>>> 18b93e50b7b6e8392bcb0241ddea6e3e9afac91f
 var tmi = require( "tmi.js" );
 var fetch = require( "node-fetch" );
 var NodeSocket = require( "ws" );
@@ -514,10 +518,14 @@ var comfyJS = {
   chatModes: {},
   version: function() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     return "1.1.21";
 =======
     return "1.1.17";
 >>>>>>> 8550881 (added reply function)
+=======
+    return "1.1.17";
+>>>>>>> 18b93e50b7b6e8392bcb0241ddea6e3e9afac91f
   },
   onError: function( error ) {
     console.error( "Error:", error );
